@@ -1,0 +1,29 @@
+<!--{% block header %}-->
+<header class="row">
+  <div class="col-md-4">
+<!--  {% block branding %}-->
+    <a href="/">
+      <img src="{{ logo_path }}" height="100">
+      <span>{{ brand_name }}</span>
+    </a>
+<!--  {% endblock %}-->
+  </div>
+  <div class="col-md-6">
+<!--  {% block navigation %}-->
+    <nav>
+      <a href="#tbd">test</a>
+      <a href="#tbd">test</a>
+      <a href="#tbd">test</a>
+    </nav>
+<!--  {% endblock %}-->
+  </div>
+  <div class="col-md-2">
+<!--  {% block search_bar %}-->
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+<!--  {% endblock %}-->
+  </div>
+</header>
+<!--{% endblock %}-->
